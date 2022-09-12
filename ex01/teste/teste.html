@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+        h1{
+            text-align: center;
+        }
+        button{
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            box-shadow:rgba(0, 0, 0, 0.364) 2px 2px 3px;
+            border-radius: 5px;
+            border: none;
+            background: rgb(47, 255, 57);
+            padding: 5px;
+        }
+        button:active{
+            background: rgb(0, 207, 0);
+            box-shadow: inset rgba(0, 0, 0, 0.364) 2px 2px 3px;
+        }
+        div#quadrado {
+           padding: 5%;
+            text-align: center;
+            width: 300px;
+            color: white;
+            background: #ff0000;
+            margin: auto;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Teste</h1>
+    <div id="quadrado"><strong id="texto">Mudar de Cor</strong></div>
+    <div><button id="bot" onclick="clicar()">trocar a cor</button></div>
+    <script>
+        var clic = document.getElementById('quadrado') 
+        function clicar(){
+            if(clic[0] != "#0000ff") {
+                clic = [document.getElementById('quadrado').style.background = "#0000ff",
+                document.getElementById     ('quadrado').innerHTML = '<strong>Mudou a Cor</strong>',
+                
+        ] 
+            } else{
+                clic = [document.getElementById('quadrado').style.background = "#ff0000",
+                document.getElementById('quadrado').innerHTML = '<strong>Voltou</strong>'
+            ]
+            }
+        }
+    </script>
+</body>
+</html>

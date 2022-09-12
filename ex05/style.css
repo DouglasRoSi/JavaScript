@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: aqua;
+}
+h1 {
+    text-align: center;
+}
+section{
+    background: white;
+    width: 425px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+}
+div {
+    padding: 10px 0px ;
+}
+div#caixa {
+    text-align: center;
+}
+select {
+    
+    width: 200px;
+}
+#frase{
+    text-align: center;
+}
+img{
+    margin: 10px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+}

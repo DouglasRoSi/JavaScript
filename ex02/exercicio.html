@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificando a Idade</title>
+</head>
+<body>
+    <h1>Verificando a Idade</h1>
+    <section>
+        <p>
+            Ano de Nacimento:<input type="number" name="ano" id="ano">
+        </p>
+        <p>
+            Sexo: 
+            <input type="radio" name="radsex" id="masculino" checked>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="radsex" id="feminino">
+            <label for="feminino">Feminino</label>
+        </p>
+        <div><button id="ver" onclick="verificar()">Verificar</button></div>
+    <div id="frase">
+        Detectamos Sexo com XX anos.
+    </div>
+</section>
+    <footer>
+        CursoEmVideo
+    </footer>
+    <script src="exercicio2.js"></script>
+    
+</body>
+</html>

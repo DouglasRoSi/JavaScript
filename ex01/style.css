@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(107, 107, 241);
+    font: normal 15pt Arial;
+    margin: auto;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.402);
+}
+#msg {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+#foto img {
+    display: block;
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    
+}
+footer {
+    font-size: small;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
